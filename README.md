@@ -2,7 +2,7 @@
  Inventory Management System
 
 This is a MERN stack (MongoDB, Express, React, Node.js) based Inventory Management System that helps businesses efficiently manage their orders, suppliers, inventory, sales, employees, and reports. 
-The application includes an easy-to-use UI with Bootstrap for styling and offers a dark mode option for better accessibility. 
+
 
 Features
 
