@@ -1,0 +1,140 @@
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  background-color: #343a40;
+  width: 220px; 
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+
+.sidebar a {
+  color: #fff;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sidebar a:hover {
+  background-color: #495057;
+}
+
+
+.navbar {
+  height: 60px;
+  width: calc(100% - 198px);
+  background-color: #343a40;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 198px; 
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+
+.content {
+  margin-left: 220px; 
+  padding-top: 80px;  
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.custom-card {
+  background-color: #3dc0f8; 
+  border: 1px solid #dee2e6; 
+}
+
+
+.custom-table {
+  background-color: #c933f7; 
+  border: 1px solid #dee2e6; 
+}
+
+
+.custom-table thead th {
+  background-color: #3dc0f8; 
+  color: #495057;}
+
+
+.chart-container {
+  background-color: hsl(60, 61%, 94%); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+input.form-control {
+  border: 2px solid #3ec6ff;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+
+input.form-control:focus {
+  border-color: #3ec6ff;
+  box-shadow: 0 0 5px #3ec6ff;
+  outline: none;
+}
+
+
+.btn-primary {
+  background-color: #3ec6ff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #35b2e3;
+}
+
+.custom-input {
+  border: 2px solid #3ec6ff;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+
+.custom-input:focus {
+  border-color: #3ec6ff;
+  box-shadow: 0 0 5px rgba(62, 198, 255, 0.5);
+  outline: none;
+}
+
+
+.btn-primary {
+  background-color: #3ec6ff;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #35b2e3;
+}
+
+
+@media (min-width: 768px) {
+  .offset-md-2 {
+      margin-left: 10.66666667%;
+  }
+}
